@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "EnchantmentTweaks.mixins",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "MixinInfinityEnchantment",
+        "EnchantmentMixin",
+        "MiningToolItemMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

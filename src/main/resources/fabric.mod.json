@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "enchantmenttweaks",
+    "version": "${version}",
+    "name": "EnchantmentTweaks",
+    "description": "Enchantment Tweaks!",
+    "authors": [
+        "Novoro"
+    ],
+    "contact": {
+        "homepage": "https://github.com/AleGuzAva/EnchantmentTweaks",
+        "sources": "https://github.com/AleGuzAva/EnchantmentTweaks"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/EnchantmentTweaks/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "EnchantmentTweaks"
+        ]
+    },
+    "mixins": [
+        "mixins.enchantmenttweaks.json"
+    ],
+    "depends": {
+        "java": ">=17",
+        "minecraft": "~1.20.1",
+        "fabric-api": "*",
+        "fabricloader": ">=0.14.21"
+    }
+}
